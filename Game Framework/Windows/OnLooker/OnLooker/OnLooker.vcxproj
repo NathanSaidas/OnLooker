@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Array.h" />
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Component.h" />
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_IReference.h" />
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Object.h" />
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Output.h" />
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_String.h" />
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_Button.h" />
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_HardwareControl.h" />
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_Input.h" />
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_InputListener.h" />
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_Key.h" />
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_KeyDef.h" />
+    <ClInclude Include="..\..\..\Common\Core\Memory\Allocator.h" />
+    <ClInclude Include="..\..\..\Common\Core\Memory\LinearAllocator.h" />
+    <ClInclude Include="..\..\..\Common\Core\Memory\OL_Memory.h" />
+    <ClInclude Include="..\..\..\Common\Core\Memory\PoolAllocator.h" />
+    <ClInclude Include="..\..\..\Common\Core\OL_Core.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Class.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Enum.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Interface.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Operators.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Primitive.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Reflection.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Type.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_TypeFactory.h" />
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Types.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Color.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_EShaderType.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Mesh.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Renderer.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Shader.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Texture.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_TextureReference.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_VertexAttribute.h" />
+    <ClInclude Include="..\..\..\Common\Core\Renderer\TextureManager.h" />
+    <ClInclude Include="..\..\..\Common\Core\Window\OL_Application.h" />
+    <ClInclude Include="..\..\..\Common\Core\Window\OL_Window.h" />
+    <ClInclude Include="..\..\..\Common\Game\OL_Game.h" />
+    <ClInclude Include="..\..\..\Common\Libraries\LodePNG\lodepng.h" />
+    <ClInclude Include="..\..\..\Common\Libraries\OL_OpenGL.h" />
+    <ClInclude Include="..\..\..\Common\Math\Matrix.h" />
+    <ClInclude Include="..\..\..\Common\Math\OL_Math.h" />
+    <ClInclude Include="..\..\..\Common\Math\Vector.h" />
+    <ClInclude Include="..\..\..\Common\OL_Common.h" />
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Console.h" />
+    <ClInclude Include="..\..\..\Common\Utilities\OL_ConsoleMessage.h" />
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Debug.h" />
+    <ClInclude Include="..\..\..\Common\Utilities\OL_FilePath.h" />
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Time.h" />
+    <ClInclude Include="..\..\..\Common\Utilities\OL_UniqueNumberGenerator.h" />
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Utilities.h" />
+    <ClInclude Include="Source\OL_Main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Common\Core\Base Objects\OL_IReference.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Base Objects\OL_Object.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Base Objects\OL_String.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_Button.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_HardwareControl.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_Input.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_InputListener.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_Key.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Memory\Allocator.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Memory\LinearAllocator.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Memory\OL_Memory.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Memory\PoolAllocator.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Reflection\OL_Class.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Reflection\OL_Interface.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Reflection\OL_TypeFactory.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Color.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Mesh.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Renderer.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Shader.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Texture.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_VertexAttribute.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\TextureManager.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_TextureReference.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Window\OL_Application.cpp" />
+    <ClCompile Include="..\..\..\Common\Core\Window\OL_Window.cpp" />
+    <ClCompile Include="..\..\..\Common\Game\OL_Game.cpp" />
+    <ClCompile Include="..\..\..\Common\Libraries\LodePNG\lodepng.cpp" />
+    <ClCompile Include="..\..\..\Common\Math\Matrix.cpp" />
+    <ClCompile Include="..\..\..\Common\Math\Vector.cpp" />
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Console.cpp" />
+    <ClCompile Include="..\..\..\Common\Utilities\OL_ConsoleMessage.cpp" />
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Debug.cpp" />
+    <ClCompile Include="..\..\..\Common\Utilities\OL_FilePath.cpp" />
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Time.cpp" />
+    <ClCompile Include="..\..\..\Common\Utilities\OL_UniqueNumberGenerator.cpp" />
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Utilities.cpp" />
+    <ClCompile Include="Source\OL_Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Resources\Shaders\BasicShader.frag" />
+    <None Include="..\..\..\Resources\Shaders\BasicShader.vert" />
+    <None Include="..\..\..\Resources\Shaders\TextureMask.frag" />
+    <None Include="..\..\..\Resources\Shaders\TextureMask.vert" />
+    <None Include="..\..\..\Resources\Shaders\TextureShader.frag" />
+    <None Include="..\..\..\Resources\Shaders\TextureShader.vert" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C676901-53F4-4AAA-BC4E-BC62F3BCF645}</ProjectGuid>
+    <RootNamespace>OnLooker</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>../../../Common/Libraries/glfw-3.0.4;../../../Common/Libraries/glew-1.10.0;../../../Common/Libraries/freeImage;../../../Common/Libraries/soil;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>../../../Common/Libraries/glfw-3.0.4;../../../Common/Libraries/glew-1.10.0;../../../Common/Libraries/freeImage;../../../Common/Libraries/soil;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;FreeImage.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

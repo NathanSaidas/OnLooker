@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project">
+      <UniqueIdentifier>{07ec51ea-00a3-4005-b52f-44666ff0907d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9602529a-6594-46da-a135-1648b97c6cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Source">
+      <UniqueIdentifier>{21f498e9-d980-42b4-8bbe-0750c9878762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core">
+      <UniqueIdentifier>{3f47935b-d7f7-4d91-9c11-2421bd9625ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Game">
+      <UniqueIdentifier>{e8f8f799-d1ee-4ff4-9428-2e6b3e2b8ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Libraries">
+      <UniqueIdentifier>{753dd6ea-8d41-434e-82e8-5c06feef27ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{7aae475d-cdbe-4b37-8652-71b1b6041714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utilities">
+      <UniqueIdentifier>{fc4d08eb-1f75-456b-bdd7-5e245a43b509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Window">
+      <UniqueIdentifier>{b8064e12-346e-43fc-8262-50bdb6167975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Renderer">
+      <UniqueIdentifier>{bd33ad4b-cf24-4b1d-a6a5-c91b2433b1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utilities\Time">
+      <UniqueIdentifier>{0202e018-2128-467a-8655-ac8af15bde95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utilities\Debug">
+      <UniqueIdentifier>{151574ae-6297-46da-b86d-158fc5af9eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Base-Objects">
+      <UniqueIdentifier>{d488e116-9153-48b3-bc37-b349a10a26fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utilities\FilePath">
+      <UniqueIdentifier>{4e99e3e0-b086-4cad-bbb4-ef8d9bbb15b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{8994a220-7d0f-4588-8d13-cd4700f54318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Libraries\LodePng">
+      <UniqueIdentifier>{b2ab0449-e0e4-451d-8aee-9f01ffe03141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Renderer\Mesh">
+      <UniqueIdentifier>{d622e5ff-3f4a-46b3-9a54-48af3d45d222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Renderer\Mesh\Texture">
+      <UniqueIdentifier>{084e3d50-1a79-4f24-85e0-b6008d4e2433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Renderer\Mesh\Shader">
+      <UniqueIdentifier>{4fb00559-47a8-464d-b2f6-d57ef4e83adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Memory">
+      <UniqueIdentifier>{523032f8-c95c-4471-a5b6-054d3e3df33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Reflection">
+      <UniqueIdentifier>{b68d65eb-4e7e-4887-99d9-eb4c7607fb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Core\Input">
+      <UniqueIdentifier>{b82f2e9c-3567-4a57-86ba-ce49fce3205d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\OL_Main.h">
+      <Filter>Project\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\OL_Core.h">
+      <Filter>Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Libraries\OL_OpenGL.h">
+      <Filter>Common\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Window\OL_Application.h">
+      <Filter>Common\Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Window\OL_Window.h">
+      <Filter>Common\Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\TextureManager.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Time.h">
+      <Filter>Common\Utilities\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\OL_Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Debug.h">
+      <Filter>Common\Utilities\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Console.h">
+      <Filter>Common\Utilities\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Output.h">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Renderer.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utilities\OL_FilePath.h">
+      <Filter>Common\Utilities\FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Mesh.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_VertexAttribute.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Color.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Shader.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_Texture.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Game\OL_Game.h">
+      <Filter>Common\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Component.h">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_TextureReference.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Renderer\OL_EShaderType.h">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utilities\OL_ConsoleMessage.h">
+      <Filter>Common\Utilities\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Libraries\LodePNG\lodepng.h">
+      <Filter>Common\Libraries\LodePng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_IReference.h">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Math\OL_Math.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Math\Matrix.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Math\Vector.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Memory\Allocator.h">
+      <Filter>Common\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Memory\LinearAllocator.h">
+      <Filter>Common\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Memory\OL_Memory.h">
+      <Filter>Common\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Memory\PoolAllocator.h">
+      <Filter>Common\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Class.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Enum.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Operators.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Primitive.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Reflection.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Type.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_TypeFactory.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Types.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Array.h">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_Object.h">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Base Objects\OL_String.h">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utilities\OL_Utilities.h">
+      <Filter>Common\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_HardwareControl.h">
+      <Filter>Common\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_Key.h">
+      <Filter>Common\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_Button.h">
+      <Filter>Common\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_Input.h">
+      <Filter>Common\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_KeyDef.h">
+      <Filter>Common\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Input\OL_InputListener.h">
+      <Filter>Common\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Core\Reflection\OL_Interface.h">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utilities\OL_UniqueNumberGenerator.h">
+      <Filter>Common\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\OL_Main.cpp">
+      <Filter>Project\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Window\OL_Application.cpp">
+      <Filter>Common\Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Window\OL_Window.cpp">
+      <Filter>Common\Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\TextureManager.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Time.cpp">
+      <Filter>Common\Utilities\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Debug.cpp">
+      <Filter>Common\Utilities\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Console.cpp">
+      <Filter>Common\Utilities\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Renderer.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Utilities\OL_FilePath.cpp">
+      <Filter>Common\Utilities\FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Mesh.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_VertexAttribute.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Color.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Shader.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_Texture.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Game\OL_Game.cpp">
+      <Filter>Common\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Renderer\OL_TextureReference.cpp">
+      <Filter>Common\Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Utilities\OL_ConsoleMessage.cpp">
+      <Filter>Common\Utilities\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Libraries\LodePNG\lodepng.cpp">
+      <Filter>Common\Libraries\LodePng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Base Objects\OL_IReference.cpp">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Math\Matrix.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Math\Vector.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Memory\Allocator.cpp">
+      <Filter>Common\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Memory\LinearAllocator.cpp">
+      <Filter>Common\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Memory\OL_Memory.cpp">
+      <Filter>Common\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Memory\PoolAllocator.cpp">
+      <Filter>Common\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Reflection\OL_Class.cpp">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Reflection\OL_TypeFactory.cpp">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Base Objects\OL_Object.cpp">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Base Objects\OL_String.cpp">
+      <Filter>Common\Core\Base-Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Utilities\OL_Utilities.cpp">
+      <Filter>Common\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_HardwareControl.cpp">
+      <Filter>Common\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_Key.cpp">
+      <Filter>Common\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_Button.cpp">
+      <Filter>Common\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_Input.cpp">
+      <Filter>Common\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Input\OL_InputListener.cpp">
+      <Filter>Common\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Core\Reflection\OL_Interface.cpp">
+      <Filter>Common\Core\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Utilities\OL_UniqueNumberGenerator.cpp">
+      <Filter>Common\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Resources\Shaders\BasicShader.frag">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\..\..\Resources\Shaders\BasicShader.vert">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\..\..\Resources\Shaders\TextureShader.frag">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\..\..\Resources\Shaders\TextureShader.vert">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\..\..\Resources\Shaders\TextureMask.frag">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\..\..\Resources\Shaders\TextureMask.vert">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
